@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Albert S. Villasor | Information Technology Student & Developer</title>
+  <meta name="description" content="Professional portfolio of Albert S. Villasor - Information Technology student at Cebu Eastern College, Dean's Lister, and developer specializing in Flutter mobile apps and Django web platforms.">
+  <meta name="author" content="Albert S. Villasor">
+  <meta name="keywords" content="Albert Villasor, Information Technology, Flutter Developer, Django Developer, Portfolio, Cebu City, Software Developer, OJT, Internship">
+  
+  <!-- OpenGraph Metadata -->
+  <meta property="og:title" content="Albert S. Villasor | Developer Portfolio">
+  <meta property="og:description" content="Explore Flutter and Django projects, academic honors, and technical credentials of Albert S. Villasor.">
+  <meta property="og:image" content="albert_avatar.png">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animations.css">
+
+  <link rel="icon" type="image/png" href="albert_avatar.png">
+</head>
+<body>
+
+  <!-- Ambient Light Backdrops -->
+  <div class="ambient-glow-1"></div>
+  <div class="ambient-glow-2"></div>
+  <div class="ambient-glow-3"></div>
+
+  <!-- ==========================================================================
+       Site Navigation Bar
+       ========================================================================== -->
+  <header class="site-navbar" id="site-navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Albert Villasor Home">
+        <div class="brand-icon-box">AV</div>
+        <span>Albert Villasor</span>
+      </a>
+
+      <!-- Desktop & Mobile Menu -->
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#achievements" class="nav-link">Honors</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <!-- Theme Switcher -->
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+          <span id="theme-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          </span>
+        </button>
+
+        <!-- Direct Contact CTA -->
+        <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+
+        <!-- Mobile Hamburger -->
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Open Mobile Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         Hero Section
+         ========================================================================== -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left: Hero Introduction -->
+          <div class="hero-text-content">
+            <div class="hero-status-pill">
+              <span class="status-dot animate-ping-dot"></span>
+              <span>Available for OJT / Internship & Junior Developer Roles</span>
+            </div>
+
+            <h1 class="hero-headline">
+              Hi, I'm <span class="text-gradient">Albert Villasor</span>.<br>
+              <span class="role-typing-wrapper" id="role-cycler">Information Technology Student</span>
+            </h1>
+
+            <p class="hero-description">
+              Dedicated Information Technology student at <strong>Cebu Eastern College</strong> and <strong>Dean's Lister</strong>. Passionate about building robust cross-platform mobile apps with <strong>Flutter</strong> and scalable full-stack web applications with <strong>Django & Python</strong>. Eager to contribute technical skills and drive results in an industry setting.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary btn-lg">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                Explore Projects
+              </a>
+              <a href="#resume" class="btn btn-outline btn-lg">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                View Resume
+              </a>
+            </div>
+
+            <!-- Quick Info Pills -->
+            <div class="quick-contact-pills">
+              <div class="contact-pill-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <span>Cebu City, Philippines</span>
+              </div>
+              <div class="contact-pill-item copy-trigger" data-copy="albertvillasor6@gmail.com" style="cursor: pointer;" title="Click to copy email">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                <span>albertvillasor6@gmail.com</span>
+              </div>
+              <div class="contact-pill-item copy-trigger" data-copy="09368462663" style="cursor: pointer;" title="Click to copy phone number">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <span>09368462663</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Profile Portrait Card with Floating Stat Badges -->
+          <div class="hero-visual">
+            <div class="profile-card-wrapper">
+              <div class="profile-glow-ring"></div>
+
+              <!-- Top Floating Badge: Dean's Lister -->
+              <div class="floating-chip chip-deans animate-float">
+                <div class="chip-icon">🏆</div>
+                <div>
+                  <div style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase;">Recognition</div>
+                  <div>Dean's Lister (2023-2024)</div>
+                </div>
+              </div>
+
+              <!-- Bottom Floating Badge: Tech Stack -->
+              <div class="floating-chip chip-stack animate-float-reverse">
+                <div class="chip-icon">⚡</div>
+                <div>
+                  <div style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase;">Core Stack</div>
+                  <div>Flutter & Django Dev</div>
+                </div>
+              </div>
+
+              <!-- Profile Card Body -->
+              <div class="profile-card-inner">
+                <div class="profile-image-container">
+                  <img src="albert_avatar.png" alt="Albert S. Villasor" class="profile-avatar-img">
+                </div>
+                <div class="profile-card-footer">
+                  <h3 class="profile-name">Albert S. Villasor</h3>
+                  <p class="profile-tagline">B.S. Information Technology • Cebu Eastern College</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         About Section
+         ========================================================================== -->
+    <section class="section-wrapper" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">About Me</span>
+          <h2 class="section-title">Driven by Technology, Focused on Impact</h2>
+          <p class="section-subtitle">Bridging theoretical computer science concepts with production-ready software solutions.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left: Narrative -->
+          <div class="about-text-content">
+            <p>
+              I am a highly motivated <strong>Information Technology student</strong> at <strong>Cebu Eastern College (CEC)</strong>, currently seeking a <strong>Student Intern or On-the-Job Training (OJT) position</strong>. With a solid academic foundation originating from the STEM strand where I graduated with <strong>High Honors</strong>, I consistently apply disciplined problem-solving and rigorous engineering methods to my projects.
+            </p>
+            <p>
+              Throughout my academic career, I have embraced hands-on software development across mobile and web ecosystems. My portfolio features a real-time driver emergency SOS application built with <strong>Flutter, GPS Geolocation, and Push Notifications (SafeDrive)</strong>, an editorial content and style community platform engineered with <strong>Python, Django, and Relational Databases (Fashion Pulse)</strong>, and a sleek dark-themed <strong>Flutter Audio Streaming Player</strong>.
+            </p>
+            <p>
+              Recognized as a <strong>Dean's Lister (2023-2024)</strong>, I am committed to continuous learning, clean code architecture, and proactive teamwork. I am enthusiastic about contributing to a dynamic engineering team where I can apply my skills, develop practical industry expertise, and deliver tangible value.
+            </p>
+
+            <div class="about-highlights-grid">
+              <div class="highlight-box">
+                <div class="highlight-title">Current Program</div>
+                <div class="highlight-value">BS in Information Technology</div>
+              </div>
+              <div class="highlight-box">
+                <div class="highlight-title">Institution</div>
+                <div class="highlight-value">Cebu Eastern College (CEC)</div>
+              </div>
+              <div class="highlight-box">
+                <div class="highlight-title">Location</div>
+                <div class="highlight-value">Basak San Nicolas, Cebu City</div>
+              </div>
+              <div class="highlight-box">
+                <div class="highlight-title">Spoken Languages</div>
+                <div class="highlight-value">English, Cebuano, Tagalog</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Quick Stat Cards -->
+          <div class="stats-card-group">
+            <div class="stat-card">
+              <div class="stat-icon">📱</div>
+              <div>
+                <div class="stat-number">3+</div>
+                <div class="stat-label">Full Apps & Mobile Systems Built</div>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon">🎓</div>
+              <div>
+                <div class="stat-number">Dean's List</div>
+                <div class="stat-label">Academic Excellence Award (2023 - 2024)</div>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon">📜</div>
+              <div>
+                <div class="stat-number">STEM Honors</div>
+                <div class="stat-label">Senior High School Academic Excellence (2021 - 2023)</div>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon">💻</div>
+              <div>
+                <div class="stat-number">freeCodeCamp</div>
+                <div class="stat-label">Responsive Web Design Certified</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Technical Skills Matrix Section
+         ========================================================================== -->
+    <section class="section-wrapper" id="skills" style="background: rgba(15, 23, 42, 0.35);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Technical Competencies</span>
+          <h2 class="section-title">Skills & Tooling Matrix</h2>
+          <p class="section-subtitle">A balanced toolkit spanning cross-platform mobile engineering, backend architectures, and data management.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+          <button class="filter-btn skill-filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn skill-filter-btn" data-filter="mobile">Mobile Development</button>
+          <button class="filter-btn skill-filter-btn" data-filter="backend">Web & Backend</button>
+          <button class="filter-btn skill-filter-btn" data-filter="languages">Languages</button>
+          <button class="filter-btn skill-filter-btn" data-filter="tools">Tools & Workflow</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid" id="skills-grid">
+          <!-- Skill: Flutter SDK -->
+          <div class="skill-card" data-category="mobile">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+              </div>
+              <div>
+                <h4 class="skill-title">Flutter SDK</h4>
+                <span class="skill-category-badge">Cross-Platform Mobile</span>
+              </div>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5;">
+              Building responsive native mobile apps for Android & iOS using Material 3 and custom state management.
+            </p>
+            <div class="skill-tags-list">
+              <span class="skill-tag-pill">Stateful Widgets</span>
+              <span class="skill-tag-pill">Animations</span>
+              <span class="skill-tag-pill">Material Design</span>
+            </div>
+          </div>
+
+          <!-- Skill: Dart -->
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <div>
+                <h4 class="skill-title">Dart Language</h4>
+                <span class="skill-category-badge">Object-Oriented Programming</span>
+              </div>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5;">
+              Type-safe OOP, asynchronous streams, futures, collections, and clean design patterns.
+            </p>
+            <div class="skill-tags-list">
+              <span class="skill-tag-pill">Async / Await</span>
+              <span class="skill-tag-pill">OOP</span>
+              <span class="skill-tag-pill">Streams</span>
+            </div>
+          </div>
+
+          <!-- Skill: Python & Django -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+              </div>
+              <div>
+                <h4 class="skill-title">Python & Django</h4>
+                <span class="skill-category-badge">Full-Stack Web</span>
+              </div>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5;">
+              Full-stack web architecture, Django ORM, authentication, moderation workflows, and dynamic templating.
+            </p>
+            <div class="skill-tags-list">
+              <span class="skill-tag-pill">Django MVT</span>
+              <span class="skill-tag-pill">ORM</span>
+              <span class="skill-tag-pill">Auth & Signals</span>
+            </div>
+          </div>
+
+          <!-- Skill: Geolocation & Maps -->
+          <div class="skill-card" data-category="mobile">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon><line x1="8" y1="2" x2="8" y2="18"></line><line x1="16" y1="6" x2="16" y2="22"></line></svg>
+              </div>
+              <div>
+                <h4 class="skill-title">Maps & Geolocation</h4>
+                <span class="skill-category-badge">Location Services</span>
+              </div>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5;">
+              Interactive mapping integration using flutter_map, latlong2, and geolocator for real-time tracking.
+            </p>
+            <div class="skill-tags-list">
+              <span class="skill-tag-pill">flutter_map</span>
+              <span class="skill-tag-pill">geolocator</span>
+              <span class="skill-tag-pill">OpenStreetMap</span>
+            </div>
+          </div>
+
+          <!-- Skill: Audio & Media -->
+          <div class="skill-card" data-category="mobile">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+              </div>
+              <div>
+                <h4 class="skill-title">Audio & Media Engines</h4>
+                <span class="skill-category-badge">Streaming Playback</span>
+              </div>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5;">
+              Audio streaming, duration tracking, real-time position seeking, and playback state orchestration.
+            </p>
+            <div class="skill-tags-list">
+              <span class="skill-tag-pill">audioplayers</span>
+              <span class="skill-tag-pill">Seeking Slider</span>
+              <span class="skill-tag-pill">Event Streams</span>
+            </div>
+          </div>
+
+          <!-- Skill: Modern Web Frontend -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+              </div>
+              <div>
+                <h4 class="skill-title">HTML5, CSS3 & JS</h4>
+                <span class="skill-category-badge">Frontend Web</span>
+              </div>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5;">
+              freeCodeCamp certified responsive web development, CSS variables, flexbox/grid, and vanilla JavaScript.
+            </p>
+            <div class="skill-tags-list">
+              <span class="skill-tag-pill">Responsive Design</span>
+              <span class="skill-tag-pill">CSS Grid/Flexbox</span>
+              <span class="skill-tag-pill">DOM APIs</span>
+            </div>
+          </div>
+
+          <!-- Skill: Relational DB -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+              <div>
+                <h4 class="skill-title">Databases & Persistence</h4>
+                <span class="skill-category-badge">Data Layer</span>
+              </div>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5;">
+              Relational data modeling, schema migrations, foreign key constraints, and local client persistence.
+            </p>
+            <div class="skill-tags-list">
+              <span class="skill-tag-pill">SQLite / PostgreSQL</span>
+              <span class="skill-tag-pill">shared_preferences</span>
+              <span class="skill-tag-pill">CRUD Operations</span>
+            </div>
+          </div>
+
+          <!-- Skill: Git & Version Control -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><path d="M13 6h3a2 2 0 0 1 2 2v7"></path><line x1="6" y1="9" x2="6" y2="21"></line></svg>
+              </div>
+              <div>
+                <h4 class="skill-title">Git & Developer Tools</h4>
+                <span class="skill-category-badge">Workflow</span>
+              </div>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5;">
+              Git version control, feature branch branching, merge resolution, VS Code, and Android Studio tooling.
+            </p>
+            <div class="skill-tags-list">
+              <span class="skill-tag-pill">Git / GitHub</span>
+              <span class="skill-tag-pill">VS Code</span>
+              <span class="skill-tag-pill">Android Studio</span>
+            </div>
+          </div>
+
+          <!-- Skill: Data Entry & Documentation -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-header">
+              <div class="skill-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+              </div>
+              <div>
+                <h4 class="skill-title">Data Entry & Documentation</h4>
+                <span class="skill-category-badge">Technical Operations</span>
+              </div>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5;">
+              Accurate technical record-keeping, data entry workflows, requirements validation, and systematic data verification.
+            </p>
+            <div class="skill-tags-list">
+              <span class="skill-tag-pill">Data Verification</span>
+              <span class="skill-tag-pill">Documentation</span>
+              <span class="skill-tag-pill">Attention to Detail</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Featured Projects Section
+         ========================================================================== */
+    <section class="section-wrapper" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Portfolio Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Real-world applications built with Flutter and Django, featuring interactive deep-dives and live simulators.</p>
+        </div>
+
+        <!-- Category Filter -->
+        <div class="filter-tabs">
+          <button class="filter-btn project-filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn project-filter-btn" data-filter="mobile">Mobile Apps (Flutter)</button>
+          <button class="filter-btn project-filter-btn" data-filter="web">Web Platforms (Django)</button>
+        </div>
+
+        <!-- Dynamic Projects Grid Container (Populated via projects-data.js) -->
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Education & Academic Journey Timeline
+         ========================================================================== -->
+    <section class="section-wrapper" id="education" style="background: rgba(15, 23, 42, 0.35);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Academic Milestones</span>
+          <h2 class="section-title">Education & Academic Journey</h2>
+          <p class="section-subtitle">A track record of academic consistency, STEM excellence, and collegiate honors in Information Technology.</p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <!-- Item 1: Tertiary -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-period">2023 - Present</span>
+                <span class="timeline-level">Tertiary Education</span>
+              </div>
+              <h3 class="timeline-title">Bachelor of Science in Information Technology</h3>
+              <div class="timeline-institution">Cebu Eastern College (CEC) • Cebu City</div>
+              <p class="timeline-description">
+                Focusing on software development, mobile computing with Flutter, full-stack web engineering, database architecture, network systems, and information systems design.
+              </p>
+              <div class="timeline-honors-pill">
+                <span>🏆</span>
+                <span>Dean's Lister (Academic Year 2023 - 2024)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Senior High School -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-period">2021 - 2023</span>
+                <span class="timeline-level">Senior High School</span>
+              </div>
+              <h3 class="timeline-title">STEM Strand (Science, Technology, Engineering & Mathematics)</h3>
+              <div class="timeline-institution">Don Vicente Rama Memorial National High School • Cebu City</div>
+              <p class="timeline-description">
+                Comprehensive training in advanced mathematics, physics, logic, and computing fundamentals, developing strong analytical thinking and quantitative problem-solving skills.
+              </p>
+              <div class="timeline-honors-pill">
+                <span>🎖️</span>
+                <span>Academic Excellence Award with High Honors (2021 - 2023) • Work Immersion Award</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Secondary Education -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-period">2017 - 2021</span>
+                <span class="timeline-level">Secondary Education</span>
+              </div>
+              <h3 class="timeline-title">Junior High School Diploma</h3>
+              <div class="timeline-institution">Don Vicente Rama Memorial National High School • Cebu City</div>
+              <p class="timeline-description">
+                Completed secondary education with active participation in STEM preparation and computer literacy courses.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 4: Primary Education -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-period">2008 - 2017</span>
+                <span class="timeline-level">Primary Education</span>
+              </div>
+              <h3 class="timeline-title">Elementary School Diploma</h3>
+              <div class="timeline-institution">Don Vicente Rama Memorial National Elementary School • Cebu City</div>
+              <p class="timeline-description">
+                Elementary graduation with solid foundational honors and academic discipline.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Achievements & Certifications Section
+         ========================================================================== -->
+    <section class="section-wrapper" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Credentials</span>
+          <h2 class="section-title">Honors & Certifications</h2>
+          <p class="section-subtitle">Verified academic recognitions, professional completions, and performance awards.</p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Dean's Lister -->
+          <div class="achievement-card">
+            <div class="achievement-icon" style="background: rgba(245, 158, 11, 0.12); color: #f59e0b;">
+              🏆
+            </div>
+            <h3 class="achievement-title">Dean's Lister</h3>
+            <div class="achievement-issuer">Cebu Eastern College (CEC) • 2023 - 2024</div>
+            <p class="achievement-desc">
+              Awarded for outstanding academic performance and collegiate scholastic excellence in the Bachelor of Science in Information Technology curriculum.
+            </p>
+          </div>
+
+          <!-- Academic Excellence with High Honors -->
+          <div class="achievement-card">
+            <div class="achievement-icon" style="background: rgba(99, 102, 241, 0.12); color: var(--accent-light);">
+              🎖️
+            </div>
+            <h3 class="achievement-title">High Honors Academic Excellence</h3>
+            <div class="achievement-issuer">Don Vicente Rama MNHS • 2021 - 2023</div>
+            <p class="achievement-desc">
+              Graduated from the Science, Technology, Engineering, and Mathematics (STEM) senior high school strand with prestigious High Honors recognition.
+            </p>
+          </div>
+
+          <!-- freeCodeCamp Certificate -->
+          <div class="achievement-card">
+            <div class="achievement-icon" style="background: rgba(16, 185, 129, 0.12); color: var(--emerald);">
+              📜
+            </div>
+            <h3 class="achievement-title">Legacy Responsive Web Design</h3>
+            <div class="achievement-issuer">freeCodeCamp • Verified Certificate</div>
+            <p class="achievement-desc">
+              Demonstrated mastery of modern HTML5, CSS3, Flexbox, CSS Grid, media queries, accessibility standards, and responsive web interface design.
+            </p>
+          </div>
+
+          <!-- Work Immersion Award -->
+          <div class="achievement-card">
+            <div class="achievement-icon" style="background: rgba(168, 85, 247, 0.12); color: #a855f7;">
+              💼
+            </div>
+            <h3 class="achievement-title">Work Immersion Award</h3>
+            <div class="achievement-issuer">Senior High School Immersion • 2023</div>
+            <p class="achievement-desc">
+              Honored for workplace diligence, professional conduct, practical problem-solving, and exemplary task execution during industry work immersion.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Resume Section
+         ========================================================================== -->
+    <section class="section-wrapper" id="resume" style="background: rgba(15, 23, 42, 0.35);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Curriculum Vitae</span>
+          <h2 class="section-title">Professional Resume</h2>
+          <p class="section-subtitle">Review credentials, educational background, and technical proficiencies.</p>
+        </div>
+
+        <div class="resume-container">
+          <!-- Resume Action Controls -->
+          <div class="resume-controls">
+            <div style="display: flex; align-items: center; gap: 0.65rem;">
+              <button class="btn btn-primary btn-sm" id="print-resume-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                Print / Save as PDF
+              </button>
+              <button class="btn btn-outline btn-sm" id="toggle-resume-scan-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                View Original Document Scan
+              </button>
+            </div>
+            
+            <a href="albert_resume.png" download="Albert_S_Villasor_Resume.png" class="btn btn-outline btn-sm">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Download Original Image
+            </a>
+          </div>
+
+          <!-- View 1: Web Print-Ready Resume Format -->
+          <div class="resume-paper-view" id="resume-paper-content">
+            <!-- Header -->
+            <div class="resume-header">
+              <div>
+                <h1 class="resume-candidate-name">ALBERT S. VILLASOR</h1>
+                <div class="resume-candidate-title">INFORMATION TECHNOLOGY STUDENT & DEVELOPER</div>
+                <div class="resume-contact-inline">
+                  <div>📍 Back Rubber World, Basak San Nicolas, Cebu City, Philippines</div>
+                  <div>📞 <a href="tel:09368462663" style="color: inherit;">09368462663</a> &nbsp;|&nbsp; ✉️ <a href="mailto:albertvillasor6@gmail.com" style="color: inherit;">albertvillasor6@gmail.com</a></div>
+                </div>
+              </div>
+              <div class="resume-photo-thumb">
+                <img src="albert_avatar.png" alt="Albert S. Villasor" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+            </div>
+
+            <!-- Objective -->
+            <div class="resume-block">
+              <h3 class="resume-section-title">OBJECTIVES</h3>
+              <p style="color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem;">
+                Highly motivated Information Technology student seeking a Student Intern or On-the-Job Training (OJT) position. Dedicated to apply technical knowledge, develop practical skills, and contribute to organizational goals while gaining valuable industry experience.
+              </p>
+            </div>
+
+            <!-- 2-Column Section: Skills & Education -->
+            <div style="display: grid; grid-template-columns: 1fr 1.35fr; gap: 2.5rem; margin-bottom: 1.8rem;">
+              <!-- Left Column: Skills & Languages -->
+              <div>
+                <div class="resume-block">
+                  <h3 class="resume-section-title">TECHNICAL SKILLS</h3>
+                  <ul style="margin-left: 1.25rem; color: var(--text-secondary); line-height: 1.8; font-size: 0.93rem;">
+                    <li><strong>Mobile App Dev:</strong> Flutter, Dart, Geolocation, Audioplayers</li>
+                    <li><strong>Web Development:</strong> Python, Django, HTML5, CSS3, JavaScript</li>
+                    <li><strong>Fundamentals Programming:</strong> OOP, Algorithms, Data Structures</li>
+                    <li><strong>Software Development:</strong> Lifecycle, REST APIs, Git</li>
+                    <li><strong>Data Entry:</strong> Documentation, Quality Verification</li>
+                  </ul>
+                </div>
+
+                <div class="resume-block">
+                  <h3 class="resume-section-title">ACHIEVEMENTS</h3>
+                  <ul style="margin-left: 1.25rem; color: var(--text-secondary); line-height: 1.8; font-size: 0.93rem;">
+                    <li><strong>Academic Excellence Award with High Honors</strong> (2021 - 2023)</li>
+                    <li><strong>Dean's Lister</strong> (2023 - 2024)</li>
+                  </ul>
+                </div>
+
+                <div class="resume-block">
+                  <h3 class="resume-section-title">CERTIFICATES</h3>
+                  <ul style="margin-left: 1.25rem; color: var(--text-secondary); line-height: 1.8; font-size: 0.93rem;">
+                    <li><strong>freeCodeCamp Legacy Responsive Web Design</strong> Certificate of Completion</li>
+                    <li><strong>Work Immersion Award</strong> (2023)</li>
+                  </ul>
+                </div>
+
+                <div class="resume-block">
+                  <h3 class="resume-section-title">LANGUAGES</h3>
+                  <ul style="margin-left: 1.25rem; color: var(--text-secondary); line-height: 1.8; font-size: 0.93rem;">
+                    <li>English</li>
+                    <li>Cebuano (Bisaya)</li>
+                    <li>Tagalog</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Right Column: Education Details -->
+              <div>
+                <div class="resume-block">
+                  <h3 class="resume-section-title">EDUCATION</h3>
+
+                  <!-- Tertiary -->
+                  <div style="margin-bottom: 1.4rem;">
+                    <div style="font-weight: 700; font-size: 1rem; color: var(--text-primary);">Tertiary Education | 2023 - Present</div>
+                    <div style="font-weight: 600; color: var(--accent-light);">Cebu Eastern College (CEC)</div>
+                    <div style="color: var(--text-secondary); font-size: 0.92rem; margin-top: 0.2rem;">
+                      • Bachelor of Science in Information Technology<br>
+                      • Dean's Lister (2023 - 2024)
+                    </div>
+                  </div>
+
+                  <!-- Secondary -->
+                  <div style="margin-bottom: 1.4rem;">
+                    <div style="font-weight: 700; font-size: 1rem; color: var(--text-primary);">Secondary Education | 2017 - 2023</div>
+                    <div style="font-weight: 600; color: var(--accent-light);">Don Vicente Rama Memorial National High School</div>
+                    <div style="color: var(--text-secondary); font-size: 0.92rem; margin-top: 0.2rem;">
+                      • Senior High School (2021 - 2023): Science, Technology, Engineering, and Mathematics (STEM)<br>
+                      • Academic Excellence with High Honors<br>
+                      • Junior High School (2017 - 2021)
+                    </div>
+                  </div>
+
+                  <!-- Primary -->
+                  <div>
+                    <div style="font-weight: 700; font-size: 1rem; color: var(--text-primary);">Primary Education | 2008 - 2017</div>
+                    <div style="font-weight: 600; color: var(--accent-light);">Don Vicente Rama Memorial National Elementary School</div>
+                    <div style="color: var(--text-secondary); font-size: 0.92rem; margin-top: 0.2rem;">
+                      • Elementary School Graduate
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Featured Projects in Resume -->
+                <div class="resume-block">
+                  <h3 class="resume-section-title">KEY PROJECTS</h3>
+                  <div style="margin-bottom: 1rem;">
+                    <div style="font-weight: 700; color: var(--text-primary); font-size: 0.95rem;">SafeDrive (Flutter Mobile Application)</div>
+                    <div style="font-size: 0.88rem; color: var(--text-secondary);">Real-time emergency SOS broadcasting, GPS geolocation navigation with flutter_map, and local push notifications.</div>
+                  </div>
+                  <div style="margin-bottom: 1rem;">
+                    <div style="font-weight: 700; color: var(--text-primary); font-size: 0.95rem;">Fashion Pulse (Django Full-Stack Web Platform)</div>
+                    <div style="font-size: 0.88rem; color: var(--text-secondary);">Editorial publishing engine with multi-stage approval workflow, interactive style photo gallery, and user activity notification pipeline.</div>
+                  </div>
+                  <div>
+                    <div style="font-weight: 700; color: var(--text-primary); font-size: 0.95rem;">Melody Stream (ADET Mobile Audio Player)</div>
+                    <div style="font-size: 0.88rem; color: var(--text-secondary);">Cross-platform Flutter music streaming interface with custom audio scrubber and dynamic album art presentation.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- View 2: Original Document Scan View (Initially Hidden) -->
+          <div id="resume-scan-content" style="display: none; text-align: center;">
+            <p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+              Original resume document provided by Albert S. Villasor:
+            </p>
+            <div style="max-width: 780px; margin: 0 auto; border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-lg); border: 1px solid var(--border-color);">
+              <img src="albert_resume.png" alt="Albert S. Villasor Resume Scan" style="width: 100%; height: auto;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Contact & Inquiries Section
+         ========================================================================== -->
+    <section class="section-wrapper" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Get in Touch</span>
+          <h2 class="section-title">Let's Discuss Opportunities</h2>
+          <p class="section-subtitle">Interested in offering an internship, OJT position, or collaborating on a project? Send a message directly.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Direct Contact Information -->
+          <div class="contact-methods">
+            <!-- Email Card -->
+            <div class="contact-card-box">
+              <div class="contact-card-info">
+                <div class="contact-card-icon">✉️</div>
+                <div>
+                  <div class="contact-card-label">Email Address</div>
+                  <div class="contact-card-value">albertvillasor6@gmail.com</div>
+                </div>
+              </div>
+              <button class="copy-btn copy-trigger" data-copy="albertvillasor6@gmail.com" title="Copy Email">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+            <!-- Phone Card -->
+            <div class="contact-card-box">
+              <div class="contact-card-info">
+                <div class="contact-card-icon">📞</div>
+                <div>
+                  <div class="contact-card-label">Mobile Phone</div>
+                  <div class="contact-card-value">09368462663</div>
+                </div>
+              </div>
+              <button class="copy-btn copy-trigger" data-copy="09368462663" title="Copy Phone">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+            <!-- Location Card -->
+            <div class="contact-card-box">
+              <div class="contact-card-info">
+                <div class="contact-card-icon">📍</div>
+                <div>
+                  <div class="contact-card-label">Home Location</div>
+                  <div class="contact-card-value">Back Rubber World, Basak San Nicolas, Cebu City</div>
+                </div>
+              </div>
+              <button class="copy-btn copy-trigger" data-copy="Basak San Nicolas, Cebu City" title="Copy Location">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+            <!-- Institution Card -->
+            <div class="contact-card-box">
+              <div class="contact-card-info">
+                <div class="contact-card-icon">🏛️</div>
+                <div>
+                  <div class="contact-card-label">Academic Institution</div>
+                  <div class="contact-card-value">Cebu Eastern College (CEC)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="contact-form-box">
+            <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Send a Direct Message</h3>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+              Fill in your contact details and message below to initiate an email conversation.
+            </p>
+
+            <form id="portfolio-contact-form">
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name / Organization</label>
+                <input type="text" id="contact-name" class="form-control" placeholder="e.g. Jane Doe / HR Recruiter" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Your Email Address</label>
+                <input type="email" id="contact-email" class="form-control" placeholder="e.g. recruiter@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" class="form-control" placeholder="e.g. OJT / Internship Opportunity" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea id="contact-message" class="form-control" placeholder="Tell me about the role, project, or opportunity..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.9rem;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Project Deep Dive & Simulator Modal
+       ========================================================================== -->
+  <div class="modal-backdrop" id="project-modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-project-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-project-title">Project Deep Dive</h3>
+        <button class="modal-close-btn" id="project-modal-close" aria-label="Close dialog">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-project-body">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Floating Button -->
+  <button class="back-to-top-btn" id="back-to-top-btn" aria-label="Back to top" title="Scroll to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- Toast Notification Box -->
+  <div class="toast-box" id="site-toast"></div>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo" style="margin-bottom: 0.5rem;">
+            <div class="brand-icon-box">AV</div>
+            <span>Albert S. Villasor</span>
+          </div>
+          <p>Information Technology Student • Mobile & Web Application Developer</p>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Albert S. Villasor. All rights reserved.</div>
+        <div>Cebu City, Philippines • Cebu Eastern College</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="projects-data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
